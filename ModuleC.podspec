@@ -16,7 +16,6 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Auzan" => "" }
   spec.platform     = :ios, "11.0"
-  spec.source       = { :path => '.' }
-  # spec.source       = { :git => "https://github.com/auzankyu/AppCore.git", :branch => "main" }
+  spec.source       = { :git => "https://github.com/auzankyu/ModuleC.git", :branch => "main" }
   spec.source_files = "ModuleC/**/*.swift"
 end
