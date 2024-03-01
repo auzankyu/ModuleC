@@ -19,10 +19,4 @@ Pod::Spec.new do |spec|
   spec.source       = { :path => '.' }
   # spec.source       = { :git => "https://github.com/auzankyu/AppCore.git", :branch => "main" }
   spec.source_files = "ModuleC/**/*.swift"
-  # spec.resources    = ["AppCore/**/*.xib", "AppCore/**/*.storyboard"]
-  # spec.resource_bundles = {
-  #   'AppCore' => ["AppCore/*.xcassets", "AppCore/**/*.xcassets"]
-  # }
-  spec.static_framework = true
-  spec.dependency 'AppCore'
 end
